@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center">
+        <span class="fa"></span> Survey Questions </h1>
+      <hr>
+      <h2 class="text-center">Answer questions truthfully for better friend matching!</h2>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+        <div class="card">
+          <div class="card-header">
+            <h4>About you</h4>
+          </div>
+          <div class="card-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="reserve-name">Name</label>
+                <input type="text" class="form-control" id="reserve-name" required>
+              </div>
+              <div class="form-group">
+                <label for="reserve-photo">Photo</label>
+                <input type="text" class="form-control" id="reserve-photo" required>
+              </div>
+              <h4>Questions</h4>
+              <div class="form-group">
+                <label for="q1">Kill Bill over Mean Girls</label>
+                <br>
+                <select class="form-control" id="q1">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q2">Apple over Windows</label>
+                <br>
+                <select class="form-control" id="q2">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q3">Water is the truth</label>
+                <br>
+                <select class="form-control" id="q3">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q4">Gin over vodka</label>
+                <br>
+                <select class="form-control" id="q4">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q5">Jazz over Hip-hop</label>
+                <br>
+                <select class="form-control" id="q5">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q6">Adidas over Nike</label>
+                <br>
+                <select class="form-control" id="q6">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q7">Your confidence is through the roof</label>
+                <br>
+                <select class="form-control" id="q7">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q8">Nothing can stop you</label>
+                <br>
+                <select class="form-control" id="q8">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q9">You are top of the food chain</label>
+                  <br>
+                <select class="form-control" id="q9">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q10">You are the best looking individual to walk the planet</label>
+                  <br>
+                <select class="form-control" id="q10">
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary submit" id="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/friendslist">API Friends List</a> | <a href="https://github.com/joeylansangan/friendfinder">GitHub
+            Repo</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="modal fade" role="dialog" id="friend-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-center font-weight-bold">Best Match</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            </div>
+            <div class="modal-body">
+              <h2 id="friend-name"></h2>
+              <img id="friend-img" src="#">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submit-btn").on("click", function(event) {
+      event.preventDefault();
+      if( !($("#reserve-name").val() === "" || $("#reserve-photo").val() === ""))
+      {
+      var newUser = { name: $("#reserve-name").val(), photo: $("#reserve-photo").val(),
+          scores: [ $("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()
+          ]
+      };
+      $.post("/api/friendslist", newUser, function(data) {
+          $("#friend-name").text(data.name);
+          $("#friend-img").attr("src", data.photo);
+          $("#friend-modal").modal("toggle");
+      });
+        
+      }
+      else{
+        alert("You must enter both a name and a photo!");
+      }
+    });
+</script>
