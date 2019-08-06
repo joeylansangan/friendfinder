@@ -1,36 +1,36 @@
-var friendsList = [
+friendsList = [
     {
-      "name":"Ahmed",
+      "name":"Hugh Scores",
       "photo":"https://pmctvline2.files.wordpress.com/2018/08/jerry-seinfeld-season-10-interview.jpg?w=620&h=440&crop=1",
       "scores":[
           5,
-          1,
+          4,
           4,
           4,
           5,
-          1,
-          2,
+          4,
+          5,
           5,
           4,
-          1
+          4
         ]
     
       
     },
     {
-        "name":"Berdugo",
+        "name":"Middle Man",
         "photo":"https://www.jpost.com/HttpHandlers/ShowImage.ashx?id=386351",
         "scores":[
             3,
             2,
-            4,
-            1,
-            5,
-            5,
-            2,
+            3,
+            3,
+            3,
             2,
             3,
-            5
+            3,
+            2,
+            3
           ]
       
         
